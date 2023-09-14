@@ -32,6 +32,10 @@ All resources will be covered by ARIC and SANAD R&D. These resources include:
 # Robotics and Visual Servoing Curriculum Checklist
 
 ## **Robotics Fundamentals**
+Resources:
+ [Robotics, Vision and Control](https://petercorke.com/rvc/home/)
+
+ 
 - [ ] **Introduction to Robotics:**
   - Basics of robotics and its applications.
   - Types of robots, focusing on serial robot arms.
