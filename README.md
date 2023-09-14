@@ -1,45 +1,86 @@
-# Kinematics_ABB_1600
-Forward Kinematics and Inverse Kinematics of ABB 1600 robot using Matlab
-# Robot Arm Control GUI
+# Robotics and Visual Servoing Curriculum Checklist
 
-![Robot Arm](Abb_1600.png)
+- [ ] Introduction to Robotics:
+  - Basics of robotics and its applications.
+  - Types of robots, focusing on serial robot arms.
+  - Understanding frames and global frames in robotics.
 
-## Overview
+- [ ] Understanding Frames and Transformations:
+  - Local vs. global coordinate frames.
+  - Euler angles and their representation in robotics.
+  - Quaternions and their advantages in orientation representation.
+  - Transformation matrices for frame transformations.
 
-This repository contains a MATLAB-based graphical user interface (GUI) for controlling a robot arm. The GUI allows users to interact with the robot arm, input joint angles, and visualize the robot's forward kinematics.
+- [ ] Robot Kinematics:
+  - Forward and inverse kinematics of serial robot arms.
+  - Denavit-Hartenberg parameters.
 
-## Features
+- [ ] Robot Arm Control:
+  - Joint control methods (position, velocity, torque).
+  - Trajectory planning for robot arm movements.
 
-- **Forward Kinematics:** The GUI can calculate and display the forward kinematics of the robot arm based on user-provided joint angles. It updates the GUI to display the calculated end-effector position (X, Y, Z).
+- [ ] Visual Servoing Fundamentals:
+  - Introduction to visual servoing and its significance.
+  - Types of visual servoing (image-based, position-based, etc.).
 
-- **Singleton GUI:** The GUI is designed as a singleton, ensuring that only one instance can run at a time.
+- [ ] Camera Systems:
+  - Camera types and specifications.
+  - Camera calibration for accurate vision data.
 
-- **Potential for Inverse Kinematics:** The code includes placeholders for handling inverse kinematics, allowing for future implementation.
+- [ ] Image Processing:
+  - Techniques for image enhancement.
+  - Object detection and feature extraction.
 
-## Getting Started
+- [ ] Understanding Linux and Working with ROS:
+  - Familiarity with the Linux operating system.
+  - Introduction to ROS (Robot Operating System).
+  - ROS nodes, topics, and messages.
+  
+- [ ] Pose Estimation:
+  - Methods for determining object pose in camera frame.
+  - Homography transformations.
 
-1. Clone this repository to your local machine.
+- [ ] Gripper Design and Control:
+  - Gripper types and selection.
+  - Control logic for opening and closing the gripper.
 
-2. Open the MATLAB GUI by running the `gui.fig` file.
+- [ ] Integration of Visual Servoing with Robot Arm:
+  - How to interface visual servoing with the robot's control system.
+  - Ensuring synchronization between vision and robot control.
 
-3. Interact with the GUI by entering joint angles and clicking the "Forward Kinematics" button to calculate and display the end-effector position.
+- [ ] Object Detection and Recognition:
+  - Implementing object detection algorithms.
+  - Machine learning-based object recognition (if applicable).
 
-## Dependencies
+- [ ] Path Planning:
+  - Collision-free path planning for robot arm.
+  - Trajectory generation for pick and place tasks.
 
-- MATLAB with the Robotics Toolbox (SerialLink)
+- [ ] Error Handling and Recovery:
+  - Strategies for handling errors and exceptions.
+  - Fail-safe mechanisms to prevent accidents.
 
-## Usage
+- [ ] User Interface and Control Panel:
+  - Developing a user-friendly interface for robot control and monitoring.
 
-- Run the GUI in MATLAB and follow the on-screen instructions to input joint angles and visualize the robot arm's forward kinematics.
+- [ ] Testing and Validation:
+  - Rigorous testing of the integrated system.
+  - Performance evaluation and optimization.
 
-## Contributing
+- [ ] Documentation and Reporting:
+  - Comprehensive documentation of the project, including setup, algorithms, and procedures.
 
-Contributions are welcome! If you'd like to contribute to this project, please fork the repository and create a pull request with your changes.
+- [ ] Safety Measures:
+  - Ensuring the robot operates safely, especially in human-robot collaboration scenarios.
 
-## License
+- [ ] Data Logging and Analysis:
+  - Implementing data logging for troubleshooting and analysis.
 
-This project is licensed under the [MIT License](LICENSE).
+- [ ] Scaling and Future Expansion:
+  - Considerations for scaling the system or adapting it for new tasks.
 
-## Acknowledgments
+- [ ] Regulatory Compliance:
+  - Compliance with safety and industry regulations.
 
-- The robot arm model and code structure are inspired by robotics and control systems principles.
+- [ ] Training and User Education:
+  - Training personnel on operating and maintaining the system.
