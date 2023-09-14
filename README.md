@@ -34,6 +34,7 @@ All resources will be covered by ARIC and SANAD R&D. These resources include:
 - [ ] Introduction to Robotics:
   - Basics of robotics and its applications.
   - Types of robots, focusing on serial robot arms.
+  - mobility and DOF of any arm robot
     
 - [ ] Understanding Frames and Transformations:
   - Local vs. global coordinate frames.
