@@ -18,7 +18,7 @@ Visual servoing applications have assumed a pivotal role in research, particular
 
 Four/five Engineering and Computer Science students. Required Skills:
 - Programming in python or C++
-- Strong Mathematical Background & Knowledge in kinetics and kinematics
+- Strong Mathematical Background and knowledge in kinetics and kinematics
 - Experience in mechanical design and fabrication / CAD design
 - Experience in Computer Vision is highly preferred
 
@@ -27,15 +27,14 @@ Four/five Engineering and Computer Science students. Required Skills:
 All resources will be covered by ARIC and SANAD R&D. These resources include:
 - Serial Robotic Manipulator
 - Robotic Gripper
-- High Resolution RGBD Cameras
+- High-resolution RGBD Cameras
 - Laser Scanners
 # Robotics and Visual Servoing Curriculum Checklist
 
 - [ ] Introduction to Robotics:
   - Basics of robotics and its applications.
   - Types of robots, focusing on serial robot arms.
-  - Understanding frames and global frames in robotics.
-
+    
 - [ ] Understanding Frames and Transformations:
   - Local vs. global coordinate frames.
   - Euler angles and their representation in robotics.
@@ -46,7 +45,7 @@ All resources will be covered by ARIC and SANAD R&D. These resources include:
   - Forward and inverse kinematics of serial robot arms.
   - Denavit-Hartenberg parameters.
 
-- [ ] Robot Arm Control:
+- [ ] Robot Arms Control:
   - Joint control methods (position, velocity, torque).
   - Trajectory planning for robot arm movements.
 
