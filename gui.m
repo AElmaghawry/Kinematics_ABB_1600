@@ -114,6 +114,44 @@ handles.z.String = num2str(T.t(3));
 
 % --- Executes on button press in ik.
 function ik_Callback(hObject, eventdata, handles)
+
+px = str2double(handles.x.String); 
+py = str2double(handles.y.String);
+pz = str2double(handles.z.String);
+
+l1 = 486.5;
+l2 = 0 ;
+l3 = 0 ;
+l4 = 600; 
+l5 = 0;
+l6 = 65;
+
+L(1) = Link('revolute','d',l1,'a',150,'alpha',-pi/2);
+L(2) = Link('revolute','d',l2,'a',475,'alpha',0,'offset',-pi/2);
+L(3) = Link('revolute','d',l3,'a',475,'alpha',-pi/2);
+L(4) = Link('revolute','d',l4,'a',0,'alpha',pi/2);
+L(5) = Link('revolute','d',l5,'a',0,'alpha',pi/2,'offset',pi);
+L(6) = Link('revolute','d',l6,'a',0,'alpha',0);
+
+Robot = SerialLink(L); 
+Robot.name = 'ABB' ; 
+
+T = [ 1 0 0 px ;
+      0 1 0 py ; 
+      0 0 1 pz ; 
+      0 0 0 1];
+
+J = Robot.ikine(T, 'rdf')
+
+handles.j1.String= J(1)* 180/pi; 
+handles.j2.String= J(2)*180/pi;
+handles.j3.String= J(3)*180/pi; 
+handles.j4.String= J(4)*180/pi;
+handles.j5.String= J(5)*180/pi; 
+handles.j6.String= J(6)*180/pi;
+
+Robot.plot(J);
+
 % hObject    axes1 to ik (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
