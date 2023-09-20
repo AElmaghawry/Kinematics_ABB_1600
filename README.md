@@ -57,6 +57,7 @@ Resources:
  Resources:
  [Linux for Robotics](https://app.theconstructsim.com/courses/linux-for-robotics-40/),
  [ROS Basics in 5 Days (Python)](https://app.theconstructsim.com/courses/ros-basics-in-5-days-python-55/)
+ [ROS for Beginners: Basics, Motion, and OpenCV](https://www.udemy.com/course/ros-essentials/?kw=ROS+for+beg&src=sac)
   - Familiarity with the Linux operating system.
   - Introduction to ROS (Robot Operating System).
   - ROS nodes, topics, and messages.
