@@ -145,3 +145,4 @@ All resources will be covered by ARIC and SANAD R&D. These resources include:
 
 - [ ] **Version Control**
   -[Version Control Crash Course](https://www.youtube.com/watch?v=RGOj5yH7evk)
+https://yolov8.com/
