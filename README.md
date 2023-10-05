@@ -32,10 +32,6 @@ All resources will be covered by ARIC and SANAD R&D. These resources include:
 # Robotics and Visual Servoing Curriculum Checklist
 
 ## **Robotics Fundamentals**
-Resources:
- [Robotics, Vision and Control](https://petercorke.com/rvc/home/)
-
- 
 - [ ] **Introduction to Robotics:**
   - Basics of robotics and its applications.
   - Types of robots, focusing on serial robot arms.
@@ -56,9 +52,7 @@ Resources:
   
  Resources:
  [Linux for Robotics](https://app.theconstructsim.com/courses/linux-for-robotics-40/),
- ,[ROS Basics in 5 Days (Python)](https://app.theconstructsim.com/courses/ros-basics-in-5-days-python-55/)
- ,[ROS for Beginners: Basics, Motion, and OpenCV](https://www.udemy.com/course/ros-essentials/?kw=ROS+for+beg&src=sac)
- ,[linux_installation](https://www.youtube.com/watch?v=-iSAyiicyQY) 
+ [ROS Basics in 5 Days (Python)](https://app.theconstructsim.com/courses/ros-basics-in-5-days-python-55/)
   - Familiarity with the Linux operating system.
   - Introduction to ROS (Robot Operating System).
   - ROS nodes, topics, and messages.
@@ -122,3 +116,32 @@ Resources:
   - Compliance with safety and industry regulations.
 - [ ] **Training and User Education:**
   - Training personnel on operating and maintaining the system.
+
+
+---
+## **Tasks**
+
+- [ ] **Roboticss**
+  - [ ] Test IF and FK code for any robot, I suggest UR10 , Mitsubishi and KUKA.
+- [ ] **Vision**
+  - [ ] YOLO8 Documentation.
+  - [ ] Data set annotation.
+  - [ ] Training.
+  - [ ] Validation.
+  - [ ] Testing.
+- [ ] **ROS**
+  - [ ] Define a custom ROS Service.
+  - [ ] Define a custom ROS message format to represent detected objects (class labels, bounding box coordinates, confidence scores).
+  - [ ] Include the custom message definition in your ROS package.
+  - [ ] Create a ROS package for your YOLO integration project.
+  - [ ] Implement a ROS node for capturing images from the robot's camera.
+  - [ ] Set up communication with the robot's camera (topics, image messages).
+  - [ ] Publish the detected objects as ROS messages on a specific topic.
+  - [ ] Ensure the custom message format is used for publishing detected object information.
+- [ ] **Design**
+  - [ ] list all the components that will be attached to the robot.
+  - [ ] Define problem.
+  - [ ] start construct a conceptual design.
+
+- [ ] **Version Control**
+  -[Version Control Crash Course](https://www.youtube.com/watch?v=RGOj5yH7evk)
