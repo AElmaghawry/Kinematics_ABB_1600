@@ -125,6 +125,7 @@ All resources will be covered by ARIC and SANAD R&D. These resources include:
   - [ ] Test IF and FK code for any robot, I suggest UR10 , Mitsubishi and KUKA.
   - [ ] Solve the following Assignment -> 19-10-2023  
    [Senior Design Project- Transformation Matrix](https://kuacae-my.sharepoint.com/:w:/g/personal/abdulla_ayyad_ku_ac_ae/EeSGRt5URi9ArQey9SqH8c4BGPW2bFxJih2zwh6scsp9VQ?e=tnzl0W)
+  - [ ] compile this packages [2-11-2023](https://www.youtube.com/watch?v=57B_rQpRVFE)
 
 - [ ] **Vision**
   - [ ] YOLO8 Documentation.
